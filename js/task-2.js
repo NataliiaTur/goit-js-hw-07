@@ -46,13 +46,17 @@ list.style.padding = '0';
 list.style.margin = '0';
 
 const listItem = document.querySelectorAll('.list-item');
-listItem.style.flex = '0 0 calc(33.33% - 24px)';
-listItem.style.boxSizing = 'border-box';
+listItem.forEach((item) => {
+  item.style.flex = '0 0 calc(33.33% - 24px)';
+  item.style.boxSizing = 'border-box';
+});
 
 const listItemImg = document.querySelectorAll('.list-item-img');
-listItemImg.style.display = 'block';
-listItemImg.style.width = '100%';
-listItemImg.style.height = 'auto';
+listItemImg.forEach((img) => {
+  img.style.display = 'block';
+  img.style.width = '100%';
+  img.style.height = 'auto';
+});
 
 
 
