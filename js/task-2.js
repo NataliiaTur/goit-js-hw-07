@@ -54,6 +54,7 @@ listItem.forEach((item) => {
 const listItemImg = document.querySelectorAll('.list-item-img');
 listItemImg.forEach((img) => {
   img.style.display = 'block';
+  img.style.maxwidth = '360px';
   img.style.width = '100%';
   img.style.height = 'auto';
 });
