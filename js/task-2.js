@@ -47,7 +47,7 @@ list.style.margin = '0';
 
 const listItem = document.querySelectorAll('.list-item');
 listItem.forEach((item) => {
-  item.style.flex = '((100% - 48px) / 3)';
+  item.style.flex = 'calc((100% - 48px) / 3)';
   item.style.boxSizing = 'border-box';
 });
 
