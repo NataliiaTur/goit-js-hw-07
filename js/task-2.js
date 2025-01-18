@@ -46,7 +46,7 @@ list.style.padding = '0';
 list.style.margin = '0';
 
 const listItem = document.querySelectorAll('.list-item');
-listItem.style.flex = '0 0 calc(33.33% - 24px);';
+listItem.style.flex = '0 0 calc(33.33% - 24px)';
 listItem.style.boxSizing = 'border-box';
 
 const listItemImg = document.querySelectorAll('.list-item-img');
