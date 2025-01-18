@@ -30,7 +30,7 @@ const images = [
 const list = document.querySelector('.gallery');
 const markup = images
   .map((image) => `<li class="list-item">
-    <img class="list-item-img" src="${image.url}" alt="${image.alt}" width="360"></>
+    <img class="list-item-img" src="${image.url}" alt="${image.alt}">
   </li>`)
   .join('');
 
@@ -54,8 +54,8 @@ listItem.forEach((item) => {
 const listItemImg = document.querySelectorAll('.list-item-img');
 listItemImg.forEach((img) => {
   img.style.display = 'block';
-  img.style.maxwidth = '360px';
   img.style.width = '100%';
+  img.style.maxWidth = '360px';
   img.style.height = 'auto';
 });
 
